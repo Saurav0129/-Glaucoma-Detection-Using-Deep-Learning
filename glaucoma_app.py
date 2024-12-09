@@ -309,7 +309,7 @@ def main():
 
         image_tensor = prepare_image(preprocessed_image)
 
-        MODEL_PATH = r"C:\Users\skbis\Downloads\best_model.pth"
+        MODEL_PATH = r"best_model.pth"
         
         model = load_model(MODEL_PATH)
         prediction, probability = predict_image(model, image_tensor)
