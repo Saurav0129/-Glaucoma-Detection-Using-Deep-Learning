@@ -1,8 +1,14 @@
-streamlit==1.40.2
-torch==2.5.1
-torchvision==0.20.1
-numpy==1.26.0
-pandas==2.2.3
-opencv-python==4.8.0.74
+opencv-python
+streamlit
+tensorflow
+torch
+torchvision
+pandas
+numpy
+matplotlib
+scikit-learn
+Pillow
+seaborn
+scipy
 
 
